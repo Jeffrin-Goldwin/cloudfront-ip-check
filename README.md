@@ -44,26 +44,25 @@ chmod +x cloudflare_ip_check.sh
 ```
 
 - On the first run, it will initialize a cache file cf_ipv4_cache.txt.
-
 - On subsequent runs, it compares the latest Cloudflare IPv4 list against the cached version.
-
 - If there are changes, it prints the newly added and removed IPs with a timestamp.
 
 🗂 Output
 - Cache file: cf_ipv4_cache.txt
-
 - Temporary files are automatically cleaned up after each run.
-
 - Timestamped log message is printed to the console if changes are detected.
 
 📝 Example Cron Job
+
 Run the check every 6 hours:
 ```
 0 */6 * * * /path/to/check_cf_ipv4.sh >> /var/log/cloudflare_ip_monitor.log 2>&1
 ```
 
-📄 License
+📄 LicenseB: 
+
 MIT License – use it freely in personal or commercial projects.
 
-🤝 Contributions
+🤝 Contributions: 
+
 Feel free to submit issues or pull requests to improve this script!
