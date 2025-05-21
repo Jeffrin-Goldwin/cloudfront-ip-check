@@ -59,7 +59,7 @@ Run the check every 6 hours:
 0 */6 * * * /path/to/check_cf_ipv4.sh >> /var/log/cloudflare_ip_monitor.log 2>&1
 ```
 
-📄 LicenseB: 
+📄 License: 
 
 MIT License – use it freely in personal or commercial projects.
 
